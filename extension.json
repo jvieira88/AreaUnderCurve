@@ -1,0 +1,20 @@
+{
+    "name": "Area Under Curve",
+    "apiVersion": "1.0.0",
+    "author": "Joao Vieira",
+    "version": "1.0.0",
+    "description": "An extension for Saleae Logic Analyser that determines the area under curve of an analog measurement.",
+    "extensions": {
+      "Area Under Curve": {
+        "type": "AnalogMeasurement",
+        "entryPoint": "AreaUnderCurve.AreaUnderCurve",
+        "metrics": {
+          "area": {
+            "name": "Area",
+            "notation": "Vsec",
+            "units": "Vsec"
+          }
+        }
+      }
+    }
+  }
